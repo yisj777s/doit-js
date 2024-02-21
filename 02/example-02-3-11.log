@@ -1,0 +1,6 @@
+emptyArr = [] //빈 배열
+[]
+colors = ["red", "blue", "green"] // 문자열 배열
+(3) ['red', 'blue', 'green']
+arr = [10, "banana", true] // 여려 자료형으로 구성된 배열
+(3) [10, 'banana', true]
