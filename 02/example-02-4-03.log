@@ -1,0 +1,14 @@
+let userInput = prompt("아무 숫자나 입력하세요.")
+undefined
+typeof(userInput)
+'string'
+userInput * 10
+280
+userInput
+'28'
+parseInt(userInput)
+28
+let bodyHeat = prompt("현재 채온은?")
+undefined
+parseFloat(bodyHeat)
+36.4
