@@ -1,5 +1,6 @@
 season = ["봄", "여름", "가을", "겨울"]
 (4) ['봄', '여름', '가을', '겨울']0: "봄"1: "여름"2: "가을"3: "겨울"length: 4[[Prototype]]: Array(0)
+season[2]
 '가을'
 season.length
 4
