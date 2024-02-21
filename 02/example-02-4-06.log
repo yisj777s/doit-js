@@ -1,10 +1,8 @@
 let userInput = "20"; // 문자열 "20"
 undefined
-userInput = +userInput;
+userInput = +userInput; // 숫자 20
 20
 userInput
-20
-userInput = +userInput; // 숫자 20
 20
 let userAge = 20; // 숫자 20
 undefined
