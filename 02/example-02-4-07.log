@@ -1,0 +1,6 @@
+Boolean(5 * 4)
+true
+Boolean("Hi?")
+true
+Boolean(undefined)
+false
