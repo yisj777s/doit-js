@@ -1,0 +1,13 @@
+let id = Symbol() // id를 심벌벌로 지정합니다.
+undefined
+const member = {
+    name : "Kim",
+    [id] : 12345  // 심벌로 키로 지정할 때 대괄호를 사용합니다.
+}
+undefined
+member
+{name: 'Kim', Symbol(): 12345}
+member.id = 6789
+6789
+member
+{name: 'Kim', id: 6789, Symbol(): 12345}

@@ -1,0 +1,6 @@
+let var1 = Symbol()
+undefined
+let var2 = Symbol()
+undefined
+var1 === var2
+false
