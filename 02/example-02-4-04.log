@@ -1,0 +1,14 @@
+num = 10 // 원래 값 숫자형
+10
+isEmpty = true // 원래 값 논리형
+true
+num.toString() // '10', 10진수 문자열
+'10'
+num.toString(2) // '1010', 2진수 문자열
+'1010'
+num.toString(8) // '12', 8진수 문자열
+'12'
+num.toString(16) // 'a', 16진수 문자열
+'a'
+isEmpty.toString()
+'true'

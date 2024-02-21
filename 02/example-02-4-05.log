@@ -1,0 +1,8 @@
+isFull = false // 원래 값 논리형
+false
+initValue = null //원래 값 null형
+null
+String(isFull) // 'false'
+'false'
+String(initValue) // 'null'
+'null'
