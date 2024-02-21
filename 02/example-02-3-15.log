@@ -1,0 +1,6 @@
+let grade = Symbol("grade")
+undefined
+member[grade] = "VIP"
+'VIP'
+member
+{name: 'Kim', id: 6789, Symbol(): 12345, Symbol(grade): 'VIP'}
