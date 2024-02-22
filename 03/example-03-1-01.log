@@ -1,0 +1,6 @@
+let x = 10, y = 4, result // 변수 선언
+undefined
+result = x / y  // 나누기 연산자
+2.5
+result = x % y; // 나머지 연산자
+2
