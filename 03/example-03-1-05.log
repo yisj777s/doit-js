@@ -1,0 +1,5 @@
+let age = 28
+undefined
+console.log("나는 " + age + "세입니다.")
+VM1197:1 나는 28세입니다.
+undefined
