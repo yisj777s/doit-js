@@ -1,0 +1,6 @@
+let userInput = prompt("이름을 입력하세요.","홍길동");
+
+if(userInput !== null)
+    alert(userInput);
+if(userInput === "홍길동") alert(userInput + "^^");
+undefined
