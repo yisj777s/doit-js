@@ -1,0 +1,10 @@
+let y = 10;
+undefined
+undefined
+if ( y < 5 ) {
+    console.log("y는 5보다 작습니다.")
+}
+y -= 5
+5
+y
+5

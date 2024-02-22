@@ -1,0 +1,7 @@
+let x = 10;
+undefined
+if (x > 5) {
+    console.log("x는 5보다 큽니다.")
+};
+VM1822:2 x는 5보다 큽니다.
+undefined
