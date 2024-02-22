@@ -1,0 +1,10 @@
+let x = 10, y = 4, result
+undefined
+result = x + y--
+14
+y
+3
+result = ++x - y
+8
+x
+11
