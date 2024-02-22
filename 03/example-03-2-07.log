@@ -1,0 +1,19 @@
+let num1 = 3, num2 = 5, small;
+
+if(num1 < num2) {
+    small = num1;
+} else {
+    small = num2;
+}
+
+console.log(small);
+
+num1 = 6, num2 = 4;
+
+small = (num1 < num2) ? num1 : num2;
+
+console.log(small);
+
+VM589:9 3
+VM589:15 4
+undefined
