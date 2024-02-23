@@ -1,0 +1,11 @@
+const students = ["Park", "Kim", "Yi", "Kang"];
+
+students.forEach(function(student) {
+    document.write(`${student}. `)
+    console.log(`${student}. `)
+});
+VM1558:5 Park. 
+VM1558:5 Kim. 
+VM1558:5 Yi. 
+VM1558:5 Kang. 
+undefined
