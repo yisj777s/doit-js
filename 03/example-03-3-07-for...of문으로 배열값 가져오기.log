@@ -1,0 +1,12 @@
+const students = ["Park", "Kim", "Yi", "Kang"];
+
+// students에 student가 있는 동안 계속 반복합니다.
+for (student of students) {
+    document.write(`${student}<br>`);
+    console.log(`${student}`);
+};
+VM1177:6 Park
+VM1177:6 Kim
+VM1177:6 Yi
+VM1177:6 Kang
+undefined
