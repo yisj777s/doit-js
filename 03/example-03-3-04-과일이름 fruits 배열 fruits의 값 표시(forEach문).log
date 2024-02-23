@@ -1,0 +1,10 @@
+const fruits = ["apple", "banana", "cherry", "grape", "orange"];
+fruits.forEach(function(fruit) {
+    console.log(`${fruit}. `)
+});
+VM1848:3 apple. 
+VM1848:3 banana. 
+VM1848:3 cherry. 
+VM1848:3 grape. 
+VM1848:3 orange. 
+undefined
