@@ -7,22 +7,6 @@ const gitBook = {
 
 for(key in gitBook) {
     document.write(`${key} : ${gitBook[key]}<br>`);
-    console.log(`${key} : ${gitBook[key]}<br>`);
-}
-VM2503:10 title : 깃&깃허브 입문<br>
-VM2503:10 pubDate : 2019-12-06<br>
-VM2503:10 pages : 272<br>
-VM2503:10 finished : true<br>
-undefined
-const gitBook = {
-    title : "깃&깃허브 입문",
-    pubDate : "2019-12-06",
-    pages : 272,
-    finished : true
-}
-
-for(key in gitBook) {
-    document.write(`${key} : ${gitBook[key]}<br>`);
     console.log(`${key} : ${gitBook[key]}`);
 }
 VM2509:10 title : 깃&깃허브 입문
