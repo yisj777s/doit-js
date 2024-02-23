@@ -1,0 +1,15 @@
+let stars = parseInt(prompt("별의 개수: "));
+
+while(stars > 0 ) {
+    document.write("*");
+    console.log("*");
+    stars--;
+};
+VM422:5 *
+VM422:5 *
+VM422:5 *
+VM422:5 *
+VM422:5 *
+VM422:5 *
+VM422:5 *
+1
