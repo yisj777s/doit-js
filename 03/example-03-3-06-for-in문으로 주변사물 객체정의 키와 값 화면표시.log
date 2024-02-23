@@ -1,0 +1,9 @@
+const pen = {size : 0.5, color : "검정", type : "볼펜"};
+for(key in pen){
+    console.log(`${key} : ${pen[key]}`);
+    document.write(`${key} : ${pen[key]}<br>`);
+}
+VM531:3 size : 0.5
+VM531:3 color : 검정
+VM531:3 type : 볼펜
+undefined
