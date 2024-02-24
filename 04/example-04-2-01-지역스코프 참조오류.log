@@ -1,0 +1,7 @@
+function sum(a, b) {
+    var result = a + b;
+}
+console.log(result);
+VM261:4 Uncaught ReferenceError: result is not defined
+    at <anonymous>:4:13
+(익명) @ VM261:4
