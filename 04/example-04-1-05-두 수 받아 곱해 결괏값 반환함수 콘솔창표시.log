@@ -1,0 +1,9 @@
+function calcMul(a, b) {
+    return a * b;
+}
+
+let num1 = parseInt(prompt("곱할 첫 번째 숫자를 입력하세요."));
+let num2 = parseInt(prompt("곱할 두 번째 숫자를 입력하세요."));
+console.log(`두 수의 곱은 ${calcMul(num1, num2)}입니다.`);
+VM2803:7 두 수의 곱은 8입니다.
+undefined
