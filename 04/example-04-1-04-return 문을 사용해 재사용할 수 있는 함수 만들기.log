@@ -1,0 +1,13 @@
+function calcSum(n) {  // n: 매개변수
+    let sum = 0;
+    for(let i = 1; i <=n; i++) {
+        sum += i;
+    }
+    return sum;
+}
+
+let num = parseInt(prompt("몇까지 더할까요?"));
+document.write(`1부터 ${num}까지 더하면 ${calcSum(num)}입니다.`); // num: 인수
+console.log(`1부터 ${num}까지 더하면 ${calcSum(num)}입니다.`); // num: 인수
+VM2106:11 1부터 10까지 더하면 55입니다.
+undefined
