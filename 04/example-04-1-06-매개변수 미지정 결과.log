@@ -1,0 +1,31 @@
+function multiple(a, b, c) {
+    return a*b+c;
+}
+
+multiple(2, 4, 8) // a = 2, b = 4, c = 8, 결괏값 16
+multiple(2, 4) // a = 2, b =4, c = undefined, 결괏값 NaN
+NaN
+function multiple(a, b, c) {
+    return a*b+c;
+}
+
+multiple(2, 4, 8) // a = 2, b = 4, c = 8, 결괏값 16
+
+16
+function multiple(a, b, c) {
+    return a*b+c;
+}
+
+conosole.log(multiple(2, 4, 8));// a = 2, b = 4, c = 8, 결괏값 16
+multiple(2, 4); // a = 2, b =4, c = undefined, 결괏값 NaN
+VM3396:5 Uncaught ReferenceError: conosole is not defined
+    at <anonymous>:5:1
+(익명) @ VM3396:5
+function multiple(a, b, c) {
+    return a*b+c;
+}
+
+console.log(multiple(2, 4, 8));// a = 2, b = 4, c = 8, 결괏값 16
+multiple(2, 4); // a = 2, b =4, c = undefined, 결괏값 NaN
+VM3399:5 16
+NaN
