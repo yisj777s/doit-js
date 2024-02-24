@@ -1,0 +1,9 @@
+var hi = "heelo"; // 전역 변수
+
+function greeting() {
+    console.log(hi);
+}
+
+greeting();
+VM509:4 heelo
+undefined
