@@ -3,5 +3,5 @@ function sum(a, b) { // a, b: 매개변수
     alert(`두 수의 합 : ${result}`)
 }
 
-sum(5,3);
+sum(5,3); // 5, 2: 인수
 undefined
