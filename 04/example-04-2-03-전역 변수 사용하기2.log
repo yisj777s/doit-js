@@ -1,0 +1,14 @@
+var hi = "hello"; // 전역 변수
+
+function change() {
+    hi = "bye"; // 함수에서 전역 변수를 수정할 수 있습니다.
+}
+console.log(hi); // "hello"
+VM1085:6 hello
+undefined
+change();
+console.log(hi); // "bye"
+VM1187:2 bye
+undefined
+hi
+'bye'
