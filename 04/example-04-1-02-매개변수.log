@@ -1,0 +1,7 @@
+function sum(a, b) { // a, b: 매개변수
+    let result = a + b;
+    alert(`두 수의 합 : ${result}`)
+}
+
+sum(5,3);
+undefined
