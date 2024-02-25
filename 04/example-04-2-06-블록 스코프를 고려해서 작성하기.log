@@ -1,0 +1,12 @@
+const factor = 5;
+
+function calc(num) {
+    return num * factor;
+}
+{
+    let result = calc(10);
+    document.write(`result : ${result} `);
+    console.log(`result : ${result} `);
+}
+VM1178:9 result : 50 
+undefined
