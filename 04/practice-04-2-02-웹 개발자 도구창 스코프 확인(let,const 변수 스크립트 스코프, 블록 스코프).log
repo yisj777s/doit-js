@@ -8,3 +8,6 @@ function addSum(n) {
 
 const num = 3;
 console.log(`1부터 ${num}까지 더하면 : ${addSum(num)}`);  
+
+VM37:10 1부터 3까지 더하면 : 6
+undefined
