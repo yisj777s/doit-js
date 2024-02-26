@@ -1,0 +1,7 @@
+fruits = ["apple", "banana", "grape"];
+console.log(fruits);
+VM2046:2 (3) ['apple', 'banana', 'grape']0: "apple"1: "banana"2: "grape"length: 3[[Prototype]]: Array(0)
+undefined
+console.log(...fruits);
+VM2176:1 apple banana grape
+undefined
