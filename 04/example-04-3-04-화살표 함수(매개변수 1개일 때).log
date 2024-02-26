@@ -1,0 +1,10 @@
+let hi = function(user) {
+    console.log(`${user}님, 안녕하세요?`);
+}
+hi("홍길동");
+VM540:2 홍길동님, 안녕하세요?
+undefined
+let hi = user => console.log(`${user}님, 안녕하세요?`);
+hi("홍길동");
+VM545:1 홍길동님, 안녕하세요?
+undefined
