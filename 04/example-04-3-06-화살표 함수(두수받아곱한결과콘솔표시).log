@@ -1,0 +1,4 @@
+let multiple = (a, b) => a * b;
+console.log(`10과 20의 곱은 ${multiple(10,20)}입니다.`);
+VM1242:2 10과 20의 곱은 200입니다.
+undefined
