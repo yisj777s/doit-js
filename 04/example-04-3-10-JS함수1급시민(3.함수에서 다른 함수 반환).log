@@ -1,0 +1,31 @@
+let init = () => {
+    return function(a, b) {
+        return a - b > 0 ? a - b : b - a;
+    }
+}
+init(30, 20);
+ƒ (a, b) {
+        return a - b > 0 ? a - b : b - a;
+    }
+console.log(`init(30, 20) : ${init(30, 20)}`);
+VM1581:1 init(30, 20) : function(a, b) {
+        return a - b > 0 ? a - b : b - a;
+    }
+undefined
+console.log(`init(30, 20) : ${init}`);
+VM1672:1 init(30, 20) : () => {
+    return function(a, b) {
+        return a - b > 0 ? a - b : b - a;
+    }
+}
+undefined
+console.log(`init(30, 20) : ${ini}`);
+VM1678:1 Uncaught ReferenceError: ini is not defined
+    at <anonymous>:1:31
+(익명) @ VM1678:1
+console.log(`init(30, 20) : ${init()(10, 20)}`);
+VM1706:1 init(30, 20) : 10
+undefined
+console.log(`init(30, 20) : ${init()(30, 20)}`);
+VM1729:1 init(30, 20) : 10
+undefined
