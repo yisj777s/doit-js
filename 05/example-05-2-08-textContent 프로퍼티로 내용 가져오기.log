@@ -1,0 +1,2 @@
+document.querySelector("#desc").textContent
+'\n      이름     :     도레미\n      주소     :     somewhere\n      연락처     :     1234-5678\n    '
