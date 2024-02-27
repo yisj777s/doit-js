@@ -1,0 +1,6 @@
+const user = ["His", "name", "is", "Hong"];
+console.log(user);
+console.log(...user);
+VM388:2 (4) ['His', 'name', 'is', 'Hong']0: "His"1: "name"2: "is"3: "Hong"length: 4[[Prototype]]: Array(0)
+VM388:3 His name is Hong
+undefined
