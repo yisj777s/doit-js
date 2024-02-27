@@ -1,0 +1,2 @@
+document.querySelectorAll(".user")[2]
+<p class=​"user">​연락처 : 1234-5678​</p>​
