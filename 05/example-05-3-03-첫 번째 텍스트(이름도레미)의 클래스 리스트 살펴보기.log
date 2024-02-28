@@ -1,0 +1,2 @@
+document.querySelector("#desc p").classList
+DOMTokenList(2) ['user', 'clicked', value: 'user clicked']0: "user"1: "clicked"length: 2value: "user clicked"[[Prototype]]: DOMTokenList
