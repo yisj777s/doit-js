@@ -1,0 +1,4 @@
+document.querySelector("#order-name")
+<input type=​"text" class=​"input-box" id=​"order-name" name=​"order-name">​
+document.querySelector("#order-name").value
+'이성주'
