@@ -1,0 +1,4 @@
+document.forms[0].elements
+HTMLFormControlsCollection(3) [input, input, button.order]0: input1: input2: button.orderlength: 3[[Prototype]]: HTMLFormControlsCollection
+document.forms[0].elements[0]
+<input type=​"text" autofocus placeholder=​"아이디">​
