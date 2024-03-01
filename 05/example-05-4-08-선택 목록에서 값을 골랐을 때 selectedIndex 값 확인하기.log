@@ -1,0 +1,2 @@
+document.querySelector("#major").options
+HTMLOptionsCollection(7) [option, option, option, option, option, option, option, selectedIndex: 3]0: option1: option2: option3: option4: option5: option6: optionlength: 7selectedIndex: 3[[Prototype]]: HTMLOptionsCollection
