@@ -1,0 +1,2 @@
+document.querySelectorAll("input[name='mailing']:checked")
+NodeList(2) [input#new, input#pops]0: input#new1: input#popslength: 2[[Prototype]]: NodeList
