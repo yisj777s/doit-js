@@ -1,0 +1,6 @@
+document.testForm.mailing
+RadioNodeList(3) [input#new, input#dialog, input#pops, value: '']
+document.testForm.mailing[1].value
+'dialog'
+document.testForm.mailing[2].value
+'pops'
