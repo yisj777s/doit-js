@@ -1,0 +1,2 @@
+document.querySelector("input[name='subject']:checked")
+<input type=​"radio" name=​"subject" value=​"grammar">​
