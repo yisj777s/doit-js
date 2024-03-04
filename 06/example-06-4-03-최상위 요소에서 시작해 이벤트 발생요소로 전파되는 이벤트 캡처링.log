@@ -1,0 +1,15 @@
+propagation-example-02.js:9 event.target : P, event.currentTarget : HTML
+propagation-example-02.js:9 event.target : P, event.currentTarget : BODY
+propagation-example-02.js:9 event.target : P, event.currentTarget : DIV
+propagation-example-02.js:9 event.target : P, event.currentTarget : SECTION
+propagation-example-02.js:9 event.target : P, event.currentTarget : P
+propagation-example-02.js:9 event.target : SECTION, event.currentTarget : HTML
+propagation-example-02.js:9 event.target : SECTION, event.currentTarget : BODY
+propagation-example-02.js:9 event.target : SECTION, event.currentTarget : DIV
+propagation-example-02.js:9 event.target : SECTION, event.currentTarget : SECTION
+propagation-example-02.js:9 event.target : DIV, event.currentTarget : HTML
+propagation-example-02.js:9 event.target : DIV, event.currentTarget : BODY
+propagation-example-02.js:9 event.target : DIV, event.currentTarget : DIV
+propagation-example-02.js:9 event.target : BODY, event.currentTarget : HTML
+propagation-example-02.js:9 event.target : BODY, event.currentTarget : BODY
+propagation-example-02.js:9 event.target : HTML, event.currentTarget : HTML
