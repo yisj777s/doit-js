@@ -1,0 +1,4 @@
+let textNode = document.createTextNode("Typescript")
+undefined
+textNode
+"Typescript"
