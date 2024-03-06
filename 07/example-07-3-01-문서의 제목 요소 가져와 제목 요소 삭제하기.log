@@ -1,0 +1,4 @@
+heading = document.querySelector("h1")
+<h1>​Web Programming​</h1>​
+heading.remove()
+undefined
