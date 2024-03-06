@@ -1,0 +1,10 @@
+let newImg = document.createElement("img")
+undefined
+let srcNode = document.createAttribute("src")
+undefined
+srcNode.value = "images/wall.jpg"
+'images/wall.jpg'
+newImg.setAttributeNode(srcNode)
+null
+document.body.appendChild(newImg)
+<img src=​"images/​wall.jpg">​
