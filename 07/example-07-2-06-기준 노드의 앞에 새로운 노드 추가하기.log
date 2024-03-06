@@ -3,5 +3,9 @@ let tsTextNode = document.createTextNode("Typescript")
 tsNode.appendChild(tsTextNode)
 "Typescript"
 let basiscNode = document.querySelectorAll("p")[0] // 첫 번째 p 요소를 기준 노드로 정함.
+<<<<<<< HEAD
 document.body.insertBefore(tsNode, basiscNode) // 기준 노드의 앞에 tsNode 추가.
+=======
+document.body.insertBefore(tsNode, basiscNode)
+>>>>>>> 4c27d4a (add example-07-2-06-기준 노드의 앞에 새로운 노드 추가하기)
 <p>​Typescript​</p>​
