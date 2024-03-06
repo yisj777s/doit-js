@@ -1,0 +1,7 @@
+let tsNode = document.createElement("p")
+let tsTextNode = document.createTextNode("Typescript")
+tsNode.appendChild(tsTextNode)
+"Typescript"
+let basiscNode = document.querySelectorAll("p")[0] // 첫 번째 p 요소를 기준 노드로 정함.
+document.body.insertBefore(tsNode, basiscNode) // 기준 노드의 앞에 tsNode 추가.
+<p>​Typescript​</p>​
