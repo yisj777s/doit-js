@@ -10,8 +10,13 @@ bttn.addEventListener("click", () => {
 
   setTimeout(() => {
     newDiv.remove();
+<<<<<<< HEAD
   }, 3000);
 });
+=======
+  }, 3000)
+})
+>>>>>>> daef269 (add example-07-마무리 문제02-버튼클릭시 알림내용메시지표시, 3초 후 메시지 자동삭제)
 
 /* solution
 const bttn = document.querySelector('#bttn');
