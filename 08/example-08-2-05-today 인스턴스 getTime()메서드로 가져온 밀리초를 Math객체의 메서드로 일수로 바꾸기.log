@@ -1,0 +1,6 @@
+today = new Date()
+Mon Mar 11 2024 17:54:02 GMT+0900 (한국 표준시)
+passedTime = today.getTime(today.toDateString())
+1710147242058
+passedDay = Math.round(passedTime / (1000 * 60 * 60 * 24))
+19793
