@@ -1,0 +1,5 @@
+let today = new Date();
+today
+Mon Mar 11 2024 11:49:37 GMT+0900 (한국 표준시)
+today.getDate()
+11
