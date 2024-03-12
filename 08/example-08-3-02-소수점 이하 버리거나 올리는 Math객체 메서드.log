@@ -1,0 +1,8 @@
+Math.PI
+3.141592653589793
+Math.ceil(Math.PI) // 소수점 이하 숫자는 무조건 올림
+4
+Math.floor(Math.PI) // 소수점 이하 숫자는 무조건 버림
+3
+Math.round(Math.PI) // 소수점 이하 숫자가 0.5이상이면 올리고 작으면 버림
+3
