@@ -1,0 +1,6 @@
+Math.PI.toFixed(3)
+'3.142'
+(Math.PI).toFixed(3)
+'3.142'
+(Math.PI).toFixed(1)
+'3.1'
