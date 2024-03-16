@@ -1,0 +1,21 @@
+const book3 = {
+    title : "점프 투 파이썬",
+    pages : 360,
+    buy : function() {
+        console.log("이 책을 구입했습니다.");
+    }
+}
+undefined
+const book3 = {
+    title : "점프 투 파이썬",
+    pages : 360,
+    buy() {
+        console.log("이 책을 구입했습니다.");
+    }
+}
+undefined
+book3
+{title: '점프 투 파이썬', pages: 360, buy: ƒ}
+book3.buy()
+VM2434:5 이 책을 구입했습니다.
+undefined
