@@ -1,0 +1,12 @@
+book1.pages
+648
+book1.pages = 50
+50
+book1.pages
+50
+book1
+{title: '웹 표준의 정석', pages: 50}
+book1.author = "고경희"
+'고경희'
+book1
+{title: '웹 표준의 정석', pages: 50, author: '고경희'}
