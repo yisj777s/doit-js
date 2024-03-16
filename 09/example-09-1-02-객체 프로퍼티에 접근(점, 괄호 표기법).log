@@ -1,0 +1,11 @@
+const book1 = {
+    title : "웹 표준의 정석",
+    pages : 648
+}
+undefined
+book1
+{title: '웹 표준의 정석', pages: 648}pages: 648title: "웹 표준의 정석"[[Prototype]]: Object
+book1.title // 점 표기법. 프로퍼티키에 큰따옴표가 없음.
+'웹 표준의 정석'
+book1["title"] // 괄호 표기법. 프로퍼티키에 큰따옴표를 붙임.
+'웹 표준의 정석'
