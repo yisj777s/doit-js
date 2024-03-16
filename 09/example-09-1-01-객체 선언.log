@@ -1,0 +1,7 @@
+const book1 = {
+    title : "웹 표준의 정석",
+    pages : 648
+}
+undefined
+book1
+{title: '웹 표준의 정석', pages: 648}pages: 648title: "웹 표준의 정석"[[Prototype]]: Object
