@@ -1,0 +1,12 @@
+const book2 = {}
+undefined
+const book2 = new Object()
+undefined
+book2
+{}[[Prototype]]: Object
+book2.title = "Javascript"
+book2.pages = 500
+book2.author = "고경희"
+'고경희'
+book2
+{title: 'Javascript', pages: 500, author: '고경희'}author: "고경희"pages: 500title: "Javascript"[[Prototype]]: Object
