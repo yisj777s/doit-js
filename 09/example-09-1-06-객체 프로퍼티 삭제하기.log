@@ -1,0 +1,4 @@
+delete book2.pages
+true
+book2
+{title: 'Javascript', author: '고경희'}author: "고경희"title: "Javascript"[[Prototype]]: Object
