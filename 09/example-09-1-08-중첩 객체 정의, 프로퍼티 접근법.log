@@ -1,0 +1,19 @@
+const student = {
+    name : "Doremi",
+    score : {
+        history : 85,
+        science : 94,
+        average : function() {
+            return (this.history + this.science) / 2
+        }
+    }
+}
+undefined
+student.score.history
+85
+student.score.average
+ƒ () {
+            return (this.history + this.science) / 2
+        }
+student.score.average()
+89.5
