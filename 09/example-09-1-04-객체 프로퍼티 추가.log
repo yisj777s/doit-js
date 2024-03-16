@@ -1,0 +1,4 @@
+book1.done = true
+true
+book1
+{title: '웹 표준의 정석', pages: 50, author: '고경희', done: true}
