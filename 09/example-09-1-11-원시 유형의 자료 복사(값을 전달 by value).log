@@ -1,0 +1,13 @@
+let number1 = 100
+let number2 = number1
+undefined
+number1
+100
+number2
+100
+number2 = 200
+200
+number1
+100
+number2
+200
