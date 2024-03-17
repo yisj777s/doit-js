@@ -1,0 +1,18 @@
+const bag1 = {
+    color : "blue",
+    width : 30,
+    height : 50,
+}
+undefined
+const bag2 = bag1
+undefined
+bag1
+{color: 'blue', width: 30, height: 50}color: "blue"height: 50width: 30[[Prototype]]: Object
+bag2
+{color: 'blue', width: 30, height: 50}color: "blue"height: 50width: 30[[Prototype]]: Object
+bag2.color = "red"
+'red'
+bag1
+{color: 'red', width: 30, height: 50}
+bag2
+{color: 'red', width: 30, height: 50}
