@@ -1,0 +1,14 @@
+constructor-1-example.js:15 웹 표준의 정석 - 648쪽 - 읽는 중
+constructor-1-example.js:16 점프 투 파이썬 - 360쪽 - 완독
+Book
+ƒ Book(title, pages, done = false) {
+  this.title = title;
+  this.pages = pages;
+  this.done = done;
+  this.finish = function() {
+    let str = "";
+    this.done === false ? str = "읽는 중" : str = …
+book1
+Book {title: '웹 표준의 정석', pages: 648, done: false, finish: ƒ}done: falsefinish: ƒ ()pages: 648title: "웹 표준의 정석"[[Prototype]]: Object
+book2
+Book {title: '점프 투 파이썬', pages: 360, done: true, finish: ƒ}done: truefinish: ƒ ()pages: 360title: "점프 투 파이썬"[[Prototype]]: Object
