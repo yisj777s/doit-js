@@ -1,0 +1,27 @@
+const bag = {
+    type : "backpack",
+    color : "blue",
+    size : 15
+}
+undefined
+for(key in bag) {
+    console.log(`${key}`);
+}
+VM374:2 type
+VM374:2 color
+VM374:2 size
+undefined
+for(key in bag) {
+    console.log(`${bag[key]}`);
+}
+VM440:2 backpack
+VM440:2 blue
+VM440:2 15
+undefined
+for(key in bag) {
+    console.log(`${key} : ${bag[key]}`);
+}
+VM454:2 type : backpack
+VM454:2 color : blue
+VM454:2 size : 15
+undefined
