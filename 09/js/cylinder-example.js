@@ -1,13 +1,26 @@
-function Cylinder (cylinderDiameter, cylinderHeight) {
-  this.diameter = cylinderDiameter;
-  this.height = cylinderHeight;
+//생성자 함수
+// function Cylinder (cylinderDiameter, cylinderHeight) {
+//   this.diameter = cylinderDiameter;
+//   this.height = cylinderHeight;
   
-  this.getVolume = function() {
-    let radius = this.diameter / 2; // 반지름 계산
-    return (Math.PI * radius * radius * this.height).toFixed(2); // 부피 계산 후 반환.
-  };
-}
+//   this.getVolume = function() {
+//     let radius = this.diameter / 2; // 반지름 계산
+//     return (Math.PI * radius * radius * this.height).toFixed(2); // 부피 계산 후 반환.
+//   };
+// }
 
+//클래스
+class Cylinder {
+  constructor(cylinderDiameter, cylinderHeight) {
+    this.diameter = cylinderDiameter;
+    this.height = cylinderHeight;
+  }
+  
+  getVolume = function() {
+    let radius = this.diameter/2;
+    return(Math.PI * radius * radius * this.height).toFixed(2);
+  }
+}
 // let cylinder = new Cylinder(8, 10); // 인스턴스 생성.
 // console.log(`원기둥의 부피는 ${cylinder.getVolume()}입니다.`);
 
