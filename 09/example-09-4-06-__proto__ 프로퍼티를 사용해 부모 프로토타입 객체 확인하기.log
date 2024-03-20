@@ -1,0 +1,4 @@
+book1
+Book {title: '웹 표준의 정석', pages: 648, done: false, finish: ƒ}done: falsefinish: ƒ ()arguments: nullcaller: nulllength: 0name: ""prototype: {}[[FunctionLocation]]: proto-1-example.js:5[[Prototype]]: ƒ ()[[Scopes]]: Scopes[2]pages: 648title: "웹 표준의 정석"[[Prototype]]: Objectconstructor: ƒ (title, pages, done)arguments: nullcaller: nulllength: 3name: "Book"prototype: {}[[FunctionLocation]]: proto-1-example.js:1[[Prototype]]: ƒ ()[[Scopes]]: Scopes[2][[Prototype]]: Object
+book1.__proto__
+{}constructor: ƒ (title, pages, done)arguments: nullcaller: nulllength: 3name: "Book"prototype: {}constructor: ƒ (title, pages, done)[[Prototype]]: Object[[FunctionLocation]]: proto-1-example.js:1[[Prototype]]: ƒ ()[[Scopes]]: Scopes[2][[Prototype]]: Object
