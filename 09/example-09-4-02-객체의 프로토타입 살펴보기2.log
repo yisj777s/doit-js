@@ -1,0 +1,8 @@
+let hello = "안녕하세요?"
+undefined
+hello
+'안녕하세요?'
+typeof(hello);
+'string'  // hello는 문자열 String 객체
+hello.length // length는 String 객체의 프로퍼티
+6
