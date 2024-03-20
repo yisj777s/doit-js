@@ -1,0 +1,4 @@
+book1
+Book {title: '웹 표준의 정석', pages: 648, done: false, finish: ƒ}done: falsefinish: ƒ ()pages: 648title: "웹 표준의 정석"[[Prototype]]: Object
+book1.pages
+648
