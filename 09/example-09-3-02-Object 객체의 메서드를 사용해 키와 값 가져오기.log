@@ -1,0 +1,3 @@
+object-example.js:10 (3) ['title', 'pages', 'buy']0: "title"1: "pages"2: "buy"length: 3[[Prototype]]: Array(0)
+object-example.js:13 (3) ['웹 표준의 정석', 648, ƒ]0: "웹 표준의 정석"1: 6482: ƒ ()length: 3[[Prototype]]: Array(0)
+object-example.js:16 (3) [Array(2), Array(2), Array(2)]0: (2) ['title', '웹 표준의 정석']1: (2) ['pages', 648]2: (2) ['buy', ƒ]length: 3[[Prototype]]: Array(0)
