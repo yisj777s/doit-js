@@ -1,0 +1,4 @@
+nBook1.finish()
+'읽는 중'
+nBook2.finish()
+'완독'
