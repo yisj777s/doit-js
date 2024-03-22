@@ -1,0 +1,5 @@
+inheri-2-example.js:7 자료 구조을(를) 15000원에 구매하였습니다.
+inheri-2-example.js:22 컴퓨터공학 전공 서적, 인공지능을 구매했습니다.
+inheri-2-example.js:7 인공지능을(를) 5000원에 구매하였습니다.
+TextbookC.prototype
+BookC {buyTextbook: ƒ}buyTextbook: ƒ buyTextbook()constructor: class TextbookC[[Prototype]]: Object
