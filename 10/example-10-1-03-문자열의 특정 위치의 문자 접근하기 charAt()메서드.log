@@ -1,0 +1,10 @@
+let str = "Good morning!";
+undefined
+str.charAt(3)
+'d'
+str[5]
+'m'
+let greeting = "안녕하세요?"
+undefined
+greeting.charAt(2)
+'하'
