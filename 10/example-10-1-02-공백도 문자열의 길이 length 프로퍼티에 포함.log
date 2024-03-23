@@ -1,0 +1,7 @@
+let str = "Good morning!";
+let greeting = "안녕하세요?";
+undefined
+str.length
+13
+greeting.length
+6
