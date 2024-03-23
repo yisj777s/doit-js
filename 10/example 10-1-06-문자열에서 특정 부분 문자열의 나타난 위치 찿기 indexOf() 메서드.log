@@ -1,0 +1,8 @@
+let str1 = "Good morning, everyone. Beautiful morning."
+undefined
+str1.indexOf("morning")
+5
+str1.indexOf("evening") // 찿는 문자열 없을 시 -1 반환.
+-1
+str1.indexOf("everyone")
+14
