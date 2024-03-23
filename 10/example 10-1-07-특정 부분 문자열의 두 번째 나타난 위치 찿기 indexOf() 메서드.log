@@ -1,0 +1,6 @@
+let str1 = "Good morning, everyone. Beautiful morning."
+undefined
+firstIdex = str1.indexOf("morning")
+5
+str1.indexOf("morning", firstIdex+1) // 두 번째 "morning"의 시작위치
+34
