@@ -1,0 +1,12 @@
+str2 = "Hello, everyone."
+'Hello, everyone.'
+str2.endsWith("one.", 16)
+true
+str2.endsWith("one", 15)
+true
+str2.endsWith("lo", 5)
+true
+str2.endsWith("o", 5)
+true
+str2.endsWith("l", 4)
+true
