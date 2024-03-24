@@ -1,0 +1,12 @@
+str2 = "Hello, everyone."
+'Hello, everyone.'
+str2.startsWith("el", 1)
+true
+str2.startsWith("o", 4)
+true
+"good morning".startsWith("o", 2)
+true
+"good morning".startsWith("o", 1)
+true
+"good morning".startsWith("o", 6)
+true
