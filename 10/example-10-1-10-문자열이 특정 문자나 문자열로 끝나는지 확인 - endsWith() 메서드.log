@@ -1,0 +1,10 @@
+str2 = "Hello, everyone."
+'Hello, everyone.'
+str2.endsWith("everyone.")
+true
+str2.endsWith("Everyone.")
+false
+str2.endsWith("one.")
+true
+str2.endsWith("lo, everyone")
+false
