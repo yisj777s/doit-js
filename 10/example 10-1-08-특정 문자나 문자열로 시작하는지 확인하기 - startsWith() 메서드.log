@@ -1,0 +1,14 @@
+str2 = "Hello, everyone."
+'Hello, everyone.'
+str2.startsWith("Hello")
+true
+str2.startsWith("hello")
+false
+str2.startsWith("He")
+true
+str2.startsWith("he")
+false
+str2.startsWith("H")
+true
+str2.startsWith("Hello, ev")
+true
