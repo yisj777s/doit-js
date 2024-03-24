@@ -1,0 +1,8 @@
+str2 = "Hello, everyone."
+'Hello, everyone.'
+str2.indexOf("every") !== -1
+true
+str2.includes("every")
+true
+str2.includes("one")
+true
