@@ -1,0 +1,12 @@
+let str4 = "Good morning."
+undefined
+str4.slice(0, 4)
+'Good'
+str4.slice(-5, 12)
+'ning'
+str4.substring(-5, 12) // substring() 메서드는 위칫값에 음수가 들어가면 무조건 0으로 바꿔서 실행.
+'Good morning'
+let arr = [0, 1, 2, 3, 4, 5];
+undefined
+arr.slice(-1)
+[5]
