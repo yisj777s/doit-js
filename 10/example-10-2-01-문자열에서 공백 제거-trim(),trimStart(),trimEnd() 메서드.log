@@ -1,0 +1,8 @@
+let str3 = "  ab  cd  ef  "
+undefined
+str3.trim()
+'ab  cd  ef'
+str3.trimStart()
+'ab  cd  ef  '
+str3.trimEnd()
+'  ab  cd  ef'
