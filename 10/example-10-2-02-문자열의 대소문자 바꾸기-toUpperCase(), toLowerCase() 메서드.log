@@ -1,0 +1,6 @@
+let str4 = "Good morning."
+undefined
+str4.toUpperCase()
+'GOOD MORNING.'
+str4.toLowerCase()
+'good morning.'
