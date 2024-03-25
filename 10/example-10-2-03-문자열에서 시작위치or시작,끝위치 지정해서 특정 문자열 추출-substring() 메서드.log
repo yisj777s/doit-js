@@ -1,0 +1,12 @@
+let str4 = "Good morning."
+undefined
+str4.substring(5)
+'morning.'
+str4.substring(0, 4)
+'Good'
+let str = "Hello, everyone."
+undefined
+str.substring(7)
+'everyone.'
+str.substring(7, 12)
+'every'
