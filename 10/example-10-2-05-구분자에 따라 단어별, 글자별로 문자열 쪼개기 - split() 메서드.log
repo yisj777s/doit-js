@@ -1,0 +1,10 @@
+let str5 = "Hello everyone"
+undefined
+str5.split(" ") // 단어별 쪼개기 : 공백을 넣음
+(2) ['Hello', 'everyone']0: "Hello"1: "everyone"length: 2[[Prototype]]: Array(0)
+array1 = str5.split(" ")
+(2) ['Hello', 'everyone']0: "Hello"1: "everyone"length: 2[[Prototype]]: Array(0)
+array2 = str5.split("") // 글자별로 쪼개기 : 공백없이 비워둠.
+(14) ['H', 'e', 'l', 'l', 'o', ' ', 'e', 'v', 'e', 'r', 'y', 'o', 'n', 'e']0: "H"1: "e"2: "l"3: "l"4: "o"5: " "6: "e"7: "v"8: "e"9: "r"10: "y"11: "o"12: "n"13: "e"length: 14[[Prototype]]: Array(0)
+"https://cafe.naver.com/doitstudyroom".split("/")
+(4) ['https:', '', 'cafe.naver.com', 'doitstudyroom']0: "https:"1: ""2: "cafe.naver.com"3: "doitstudyroom"length: 4[[Prototype]]: Array(0)
