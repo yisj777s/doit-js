@@ -1,0 +1,10 @@
+let str = "ES2015 is powerful!"
+undefined
+str.match(/ES6/)
+null
+str.match(/ES20/)
+['ES20', index: 0, input: 'ES2015 is powerful!', groups: undefined]0: "ES20"groups: undefinedindex: 0input: "ES2015 is powerful!"length: 1[[Prototype]]: Array(0)
+str.replace(/ES2015/, "ES6")
+'ES6 is powerful!'
+str.replace(/2015/, "2016")
+'ES2016 is powerful!'
