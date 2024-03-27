@@ -1,0 +1,14 @@
+let regexp = /\d{3}/ // 숫자 세 자리라는 패턴을 regexp에 할당하고 표현식을 사용.
+undefined
+regexp
+/\d{3}/
+regexp.test("Hello")
+false
+regexp.test("123")
+true
+regexp.test("456")
+true
+let regexp2 = new RegExp(/\d{3}/) // RegExp 객체 사용.
+undefined
+regexp2
+/\d{3}/
