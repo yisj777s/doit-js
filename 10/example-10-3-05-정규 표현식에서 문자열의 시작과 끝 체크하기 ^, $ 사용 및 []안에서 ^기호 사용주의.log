@@ -1,0 +1,16 @@
+let Hello = "Hello, everyone."
+undefined
+/^H/.test(Hello)
+true
+/^h/.test(Hello)
+false
+/one.$/.test(Hello)
+true
+/e.$/.test(Hello)
+true
+/one$/.test(Hello)
+false
+// ^기호가 []안에 있을 경우에는 NOT의 의미가 됨.
+undefined
+"ES2015".match(/[^0-9]/g)
+(2) ['E', 'S']0: "E"1: "S"length: 2[[Prototype]]: Array(0)
