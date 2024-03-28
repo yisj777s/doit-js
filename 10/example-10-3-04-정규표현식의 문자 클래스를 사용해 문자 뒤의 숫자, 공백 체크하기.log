@@ -1,0 +1,10 @@
+let str = "ES2015 is powerful!"
+undefined
+str.match(/ES\d/)
+['ES2', index: 0, input: 'ES2015 is powerful!', groups: undefined]0: "ES2"groups: undefinedindex: 0input: "ES2015 is powerful!"length: 1[[Prototype]]: Array(0)
+str.match(/ES\w/)
+['ES2', index: 0, input: 'ES2015 is powerful!', groups: undefined]
+str.match(/ES\d\d\d\d/)
+['ES2015', index: 0, input: 'ES2015 is powerful!', groups: undefined]
+str.match(/ES\d\d\d\d\s/)
+['ES2015 ', index: 0, input: 'ES2015 is powerful!', groups: undefined]
