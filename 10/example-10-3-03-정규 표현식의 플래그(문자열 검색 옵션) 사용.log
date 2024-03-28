@@ -1,0 +1,6 @@
+let str = "ES2015 is powerful!"
+undefined
+/es/.test(str)
+false
+/es/i.test(str)
+true
