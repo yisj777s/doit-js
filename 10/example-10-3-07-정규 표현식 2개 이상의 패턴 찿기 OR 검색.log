@@ -1,0 +1,6 @@
+let str2 = "ES2015(ES6) is powerful"
+undefined
+let regexp = /ES2015|ES6/
+undefined
+regexp.test(str2)
+true
