@@ -1,0 +1,8 @@
+str5 = "Hello, everyone"
+'Hello, everyone'
+array4 = Array.from(str5) // Array.from(문자열)
+(15) ['H', 'e', 'l', 'l', 'o', ',', ' ', 'e', 'v', 'e', 'r', 'y', 'o', 'n', 'e']
+str6 = array4.join(" ")
+'H e l l o ,   e v e r y o n e'
+str6 = array4.join("")
+'Hello, everyone'
