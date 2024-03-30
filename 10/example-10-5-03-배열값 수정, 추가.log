@@ -1,0 +1,14 @@
+let pets = ["dog", "cat", "parrot"]
+undefined
+pets[1] = "hamster"
+'hamster'
+pets
+(3) ['dog', 'hamster', 'parrot']0: "dog"1: "hamster"2: "parrot"length: 3[[Prototype]]: Array(0)
+let fruits = new Array("사과", "복숭아", "포도")
+undefined
+fruits[4] = "배"
+'배'
+fruits
+(5) ['사과', '복숭아', '포도', 비어 있음, '배']0: "사과"1: "복숭아"2: "포도"4: "배"length: 5[[Prototype]]: Array(0)
+fruits[3]
+undefined
