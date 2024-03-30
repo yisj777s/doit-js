@@ -1,0 +1,12 @@
+let season = []
+undefined
+season[0] = "spring"
+'spring'
+season[1] = "summer"
+'summer'
+season
+(2) ['spring', 'summer']0: "spring"1: "summer"length: 2[[Prototype]]: Array(0)
+season[3] = "abc"
+'abc'
+season
+(4) ['spring', 'summer', 비어 있음, 'abc']0: "spring"1: "summer"3: "abc"length: 4[[Prototype]]: Array(0)
