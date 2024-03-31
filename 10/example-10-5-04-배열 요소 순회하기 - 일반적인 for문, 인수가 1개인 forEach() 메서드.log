@@ -1,0 +1,20 @@
+// 일반적인 for문
+let colors = ["red", "green", "blue", "white", "black"]
+for (let i = 0; i < colors.length; i++) {
+    console.log(colors[i]);
+}
+VM544:4 red
+VM544:4 green
+VM544:4 blue
+VM544:4 white
+VM544:4 black
+undefined
+// 인수가 1개인 forEach()문
+let animals = ["lion", "bear", "bird"]
+animals.forEach(animal => {
+    console.log(animal)
+})
+VM894:4 lion
+VM894:4 bear
+VM894:4 bird
+undefined
