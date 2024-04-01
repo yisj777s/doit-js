@@ -1,0 +1,20 @@
+let animals = ["lion", "bear", "bird"]
+undefined
+// 인수가 2개인 forEach()문
+// forEach문에서 값과 인덱스를 인수로 사용
+animals.forEach((animal, index) => {
+    console.log(`animals[${index}] : ${animal}`);
+});
+VM400:4 animals[0] : lion
+VM400:4 animals[1] : bear
+VM400:4 animals[2] : bird
+undefined
+// 인수가 3개인 for Each()문
+// forEach문에서 값과 인덱스, 배열을 인수로 사용
+animals.forEach((animal, index, array) => {
+    console.log(`[${array}][${index}] : ${animal}`)
+});
+VM937:4 [lion,bear,bird][0] : lion
+VM937:4 [lion,bear,bird][1] : bear
+VM937:4 [lion,bear,bird][2] : bird
+undefined
