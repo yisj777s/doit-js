@@ -1,0 +1,36 @@
+// 배열 요소 정렬하기 - reverse(), sort() 메서드
+// 역순으로 배치하기 - reverse() 메서드
+let numbers = [6, 9, 3, 21, 18]
+numbers.reverse()
+(5) [18, 21, 3, 9, 6]0: 181: 212: 33: 94: 6length: 5[[Prototype]]: Array(0)
+// 크기에 따라 정렬하기 - sort() 메서드
+let week = ["sun", "mon", "tue"]
+let values = [5, 20, 3, 11, 4, 15]
+week.sort()
+(3) ['mon', 'sun', 'tue']0: "mon"1: "sun"2: "tue"length: 3[[Prototype]]: Array(0)
+values.sort()
+(6) [11, 15, 20, 3, 4, 5]
+// sort() 메서드 숫자배열정렬을 위한 정렬함수
+values.sort(function (a, b) {
+    if (a > b) return 1;
+    if (a < b) return -1;
+    if (a === 0) return 0;
+})
+(6) [3, 4, 5, 11, 15, 20]0: 31: 42: 53: 114: 155: 20length: 6[[Prototype]]: Array(0)
+// sort() 메서드 숫자배열정렬을 위한 정렬함수
+values.sort(function (a, b) {
+    if (a > b) return 1;
+    if (a < b) return -1;
+    if (a === 0) return 0;
+})
+(6) [3, 4, 5, 11, 15, 20]
+// 오름차순 숫자배열정렬
+values.sort(function (a, b) {
+    return a - b;
+})
+(6) [3, 4, 5, 11, 15, 20]
+// 내림차순 숫자배열정렬
+values.sort(function (a, b) {
+    return b - a;
+})
+(6) [20, 15, 11, 5, 4, 3]
