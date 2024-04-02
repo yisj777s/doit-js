@@ -1,0 +1,11 @@
+let vegitable = ["양상추", "토마토", "피클"]
+let meat = ["불고기"]
+undefined
+let meatBurger = vegitable.concat(meat, "빵")
+undefined
+meatBurger
+(5) ['양상추', '토마토', '피클', '불고기', '빵']0: "양상추"1: "토마토"2: "피클"3: "불고기"4: "빵"length: 5[[Prototype]]: Array(0)
+let meatBurger2 = meat.concat("빵", vegitable)
+undefined
+meatBurger2
+(5) ['불고기', '빵', '양상추', '토마토', '피클']0: "불고기"1: "빵"2: "양상추"3: "토마토"4: "피클"length: 5[[Prototype]]: Array(0)
