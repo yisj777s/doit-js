@@ -1,0 +1,11 @@
+let vegitable = ["양상추", "토마토", "피클"]
+let cheese = ["모짜렐라", "슈레드"]
+undefined
+let cheeseBurger = ["빵", ...vegitable, ...cheese]
+undefined
+cheeseBurger
+(6) ['빵', '양상추', '토마토', '피클', '모짜렐라', '슈레드']0: "빵"1: "양상추"2: "토마토"3: "피클"4: "모짜렐라"5: "슈레드"length: 6[[Prototype]]: Array(0)
+let cheeseBurger2 = [...vegitable, ...cheese, "빵"]
+undefined
+cheeseBurger2
+(6) ['양상추', '토마토', '피클', '모짜렐라', '슈레드', '빵']
