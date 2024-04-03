@@ -1,0 +1,11 @@
+// 배열의 맨 앞에 요소 추가하고 제거하기 - shift(), unshift()메서드
+let fruits = ["apple", "pear", "banana"]
+undefined
+fruits.shift()
+'apple'
+fruits
+(2) ['pear', 'banana']0: "pear"1: "banana"length: 2[[Prototype]]: Array(0)
+fruits.unshift("cherry")
+3
+fruits
+(3) ['cherry', 'pear', 'banana']0: "cherry"1: "pear"2: "banana"length: 3[[Prototype]]: Array(0)
