@@ -1,0 +1,24 @@
+// 원하는 위치에 요소 추가하거나 제거하기 - splice() 메서드
+// 특정 위치부터 끝까지 요소 제거
+let subjects = ["html", "css", "javascript", "react", "typescript"]
+undefined
+subjects.splice(2)
+(3) ['javascript', 'react', 'typescript']0: "javascript"1: "react"2: "typescript"length: 3[[Prototype]]: Array(0)
+subjects
+(2) ['html', 'css']0: "html"1: "css"length: 2[[Prototype]]: Array(0)
+// 특정 위치에서 원하는 개수만큼 요소 제거
+let week = ["sun", "mon", "tue", "wed", "thu", "fri", "sat"]
+undefined
+let weekday = week.splice(1, 5)
+undefined
+weekday
+(5) ['mon', 'tue', 'wed', 'thu', 'fri']
+week
+(2) ['sun', 'sat']
+// 특정 위치에 요소 추가
+let brunch = ["egg", "milk", "apple", "banana"]
+undefined
+brunch.splice(2, 0, "coffee", "bread")
+[]
+brunch
+(6) ['egg', 'milk', 'coffee', 'bread', 'apple', 'banana']
