@@ -1,0 +1,23 @@
+// 매개변수 기본값
+// 매개변수에 기본값을 지정하지 않을 때 
+function hello(name, message) {
+    console.log(`${name}님, ${message}`)
+}
+undefined
+hello("도레미", "반갑습니다.")
+VM631:4 도레미님, 반갑습니다.
+undefined
+hello("백두산")
+VM631:4 백두산님, undefined
+undefined
+// 매개변수에 기본값을 지정할 때
+function hello(name, message = "안녕하세요?") {
+    console.log(`${name}님, ${message}`)
+}
+undefined
+hello("도레미", "반갑습니다.")
+VM1042:3 도레미님, 반갑습니다.
+undefined
+hello("백두산")
+VM1042:3 백두산님, 안녕하세요?
+undefined
