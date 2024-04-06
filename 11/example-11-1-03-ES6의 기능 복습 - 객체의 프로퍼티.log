@@ -1,0 +1,66 @@
+// 객체의 프로퍼티
+// 대괄호 표기법
+const book = {
+    title: "Javascript",
+    pages: 500
+}
+undefined
+book.published date = "2022-01"
+VM2638:1 Uncaught SyntaxError: Unexpected identifier 'date'
+book["published date"] = "2022-01"
+'2022-01'
+book
+{title: 'Javascript', pages: 500, published date: '2022-01'}pages: 500published date: "2022-01"title: "Javascript"[[Prototype]]: Object
+// 계산된 프로퍼티 이름
+function fn() {
+    return "result";
+}
+undefined
+const obj = {
+    [fn()] : "함수 키"
+}
+undefined
+obj
+{result: '함수 키'}result: "함수 키"[[Prototype]]: Object
+function add(a, b) {
+    return a + b;
+}
+undefined
+const obj = {
+    [fn()] : "함수 키",
+    [`${add(10, 20)} key`] : "계산식 키"
+}
+undefined
+obj
+{result: '함수 키', 30 key: '계산식 키'}
+// 프로퍼티값 단축하기
+let user = {
+    name : "도레미"
+}
+undefined
+user.age = 25
+25
+user
+{name: '도레미', age: 25}age: 25name: "도레미"[[Prototype]]: Object
+function makeUser(name, age) {
+    return {
+        name : name,
+        age : age
+    }
+}
+undefined
+let user1 = makeUser("백두산", 20)
+undefined
+user1
+{name: '백두산', age: 20}age: 20name: "백두산"[[Prototype]]: Object
+function makeUser(name, age) {
+    return {
+        name,
+        age
+    }
+}
+undefined
+let user2 = makeUser("한라산", 27)
+undefined
+user2
+{name: '한라산', age: 27}age: 27name: "한라산"[[Prototype]]: Object
