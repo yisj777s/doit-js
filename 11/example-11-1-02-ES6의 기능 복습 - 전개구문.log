@@ -1,0 +1,44 @@
+// 전개 구문
+// 나머지 매개변수로 사용할 때
+// 나머지 매개변수를 사용해 함수 선언하기
+undefined
+function addNum(...numbers) {
+    let sum = 0;
+
+    for(let number of numbers) 
+        sum += number;
+
+    return sum;
+}
+undefined
+console.log(addNum(1, 2))
+VM764:1 3
+undefined
+console.log(addNum(1, 2, 3, 4, 5))
+VM773:1 15
+undefined
+// 전개 구문을 사용해 배열 연결하기
+const animal = ["bird", "cat"]
+undefined
+const fruits = ["apple", "banana", "cherry"]
+undefined
+animal.concat(fruits)
+(5) ['bird', 'cat', 'apple', 'banana', 'cherry']0: "bird"1: "cat"2: "apple"3: "banana"4: "cherry"length: 5[[Prototype]]: Array(0)
+[...animal, ...fruits]
+(5) ['bird', 'cat', 'apple', 'banana', 'cherry']0: "bird"1: "cat"2: "apple"3: "banana"4: "cherry"length: 5[[Prototype]]: Array(0)
+// 전개 구문을 사용해 배열 복사하기
+const fruits = ["apple", "banana", "cherry"]
+const favorite = fruits
+undefined
+favorite[1] = "grape"
+fruits
+(3) ['apple', 'grape', 'cherry']0: "apple"1: "grape"2: "cherry"length: 3[[Prototype]]: Array(0)
+const mine = [...fruits]
+mine
+(3) ['apple', 'grape', 'cherry']
+mine[1] = "orange"
+'orange'
+mine
+(3) ['apple', 'orange', 'cherry']
+fruits
+(3) ['apple', 'grape', 'cherry']
