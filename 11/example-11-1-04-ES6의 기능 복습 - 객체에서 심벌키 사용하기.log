@@ -1,0 +1,33 @@
+// 객체에서 심벌키 사용하기
+let id1 = Symbol()
+let id2 = Symbol()
+undefined
+id1 === id2
+false
+// 심벌을 사용해 프로퍼티 정의하기
+const id = Symbol("id")
+const tel = Symbol("telephone number")
+undefined
+const member = {
+    name : "Kim",
+    age : 25,
+    [id] : 1235,
+    [tel] : function () {
+        alert(prompt("전화번호 : "));
+    }
+}
+undefined
+for(item in member) {
+    console.log(`${item} : ${member[item]}`)
+}
+VM1415:2 name : Kim
+VM1415:2 age : 25
+undefined
+// 심벌키에 접근하기
+member.name
+'Kim'
+member[id]
+1235
+(익명) @ VM1663:1
+member[tel]()
+undefined
