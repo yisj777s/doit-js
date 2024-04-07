@@ -1,0 +1,10 @@
+// 전역 심벌
+// Symbol.for() 메서드 : 이름(키)을 이용해 심볼(심벌값)을 찾음
+let tel = Symbol.for("tel") // 처음이므로 심벌 생성.
+undefined
+let phone = Symbol.for("tel") // tel 키에 대한 심벌이 이미 있으므로 가져와서 사용.
+tel === phone
+true
+// Symbol.keyFor() 메서드 : 심볼(심벌값)을 이용해 이름(키)을 얻음
+Symbol.keyFor(phone)
+'tel'
