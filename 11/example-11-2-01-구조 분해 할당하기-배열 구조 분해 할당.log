@@ -1,0 +1,56 @@
+// 구조 분해 할당하기
+// 배열 구조 분해 할당하기
+const fruits = ["사과", "복숭아"]
+let apple = fruits[0]
+let peach = fruits[1]
+undefined
+apple
+'사과'
+peach
+'복숭아'
+let [apple, peach] = ["사과", "복숭아"]
+undefined
+const fruits = ["사과", "복숭아"]
+let [apple, peach] = fruits
+undefined
+apple
+'사과'
+peach
+'복숭아'
+let [member1, member2] = []
+undefined
+member1
+undefined
+member2
+undefined
+// 일부 값만 구조 분해 할당하기
+let [spring, ,fall, ] = ["봄", "여름", "가을", "겨울"]
+undefined
+spring
+'봄'
+fall
+'가을'
+let [,,fall, winter] = ["봄", "여름", "가을", "겨울"]
+undefined
+fall
+'가을'
+winter
+'겨울'
+// 나머지 변수를 사용해 구조 분해 할당하기
+let [teacher, ...students] = ["Kim", "Lee", "Park", "Choi"]
+
+undefined
+teacher
+'Kim'
+students
+(3) ['Lee', 'Park', 'Choi']0: "Lee"1: "Park"2: "Choi"length: 3[[Prototype]]: Array(0)
+// 두 변수의 값 교환하기
+let x = 10
+let y = 20
+undefined
+[x, y] = [y, x]
+(2) [20, 10]0: 201: 10length: 2[[Prototype]]: Array(0)
+x
+20
+y
+10
