@@ -1,0 +1,18 @@
+// 배열을 변형하는 메서드
+// 배열 요소에 같은 함수 적용하기 - map()메서드
+// map(함수(값, 인덱스, 배열)) - 요소의 값, 인덱스, 배열을 인수로 사용
+let numbers = [1, 2, 3, 4, 5]
+let newNumbers = numbers.map(number => number * 2);
+undefined
+numbers
+(5) [1, 2, 3, 4, 5]
+newNumbers
+(5) [2, 4, 6, 8, 10]
+let numbers = [2, 4, 5, 6, 7]
+undefined
+let newNumbers2 = numbers.map((number, index) => index + (number * 3))
+undefined
+newNumbers2
+(5) [6, 13, 17, 21, 25]
+numbers
+(5) [2, 4, 5, 6, 7]
