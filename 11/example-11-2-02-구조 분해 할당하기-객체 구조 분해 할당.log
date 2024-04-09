@@ -1,0 +1,85 @@
+// 객체 구조 분해
+const member = {
+    name : "Kim",
+    age : 25
+}
+undefined
+let {name, age} = member
+undefined
+name
+'Kim'
+age
+25
+let name, age
+undefined
+({name, age} = {name : "kim", age : 25})
+{name: 'kim', age: 25}
+name
+'kim'
+age
+25
+({name, age} = {name : "Yi", age : 28})
+{name: 'Yi', age: 28}
+name
+'Yi'
+age
+28
+({name, age} = member)
+{name: 'Kim', age: 25}
+name
+'Kim'
+age
+25
+// 새로운 변수 이름 사용하기
+const member = {
+    name : "Lee",
+    age : 27
+}
+undefined
+let {name : userName, age} = member
+undefined
+userName
+'Lee'
+age
+27
+name
+'Kim'
+// 중첩된 객체 구조 분해하기
+const student = {
+    name : "도레미",
+    score : {
+        history : 85,
+        science : 94
+    },
+    friends : ["Kim", "Lee", "Park"]
+}
+undefined
+let {
+    name,
+    score : {
+        history,
+        science
+    },
+    friends : [f1, f2, f3]
+} = student
+undefined
+name
+'도레미'
+history
+85
+science
+94
+f1
+'Kim'
+f2
+'Lee'
+f3
+'Park'
+let { name, score : {history, science}, friends : [f4, f5, f6] } = student
+undefined
+f4
+'Kim'
+f6
+'Park'
+science
+94
