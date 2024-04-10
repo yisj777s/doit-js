@@ -1,0 +1,15 @@
+// 값 하나로 누적하기 - reduce() 메서드
+// reduce(함수(누산기, 현잿값, 인덱스, 원래 배열), 초깃값)
+let numbers = [1, 2, 3, 4, 5]
+let result = numbers.reduce((total, current) => total + current, 0);
+undefined
+result
+15
+let numbers = [1, 2, 3, 4, 5]
+let result = numbers.reduce(
+    (total, current) => total + current,
+    0
+    );
+undefined
+result
+15
