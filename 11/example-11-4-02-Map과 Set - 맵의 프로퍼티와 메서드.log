@@ -1,0 +1,80 @@
+// 11-4 Map과 Set
+// 11-4-2.맵의 프로퍼티와 메서드
+// size // 맵 요소의 개수를 알려주는 프로퍼티
+// set(키, 값) // 프로퍼티를 추가.
+// get(키) // 해당 키의 값을 반환.
+// has(키) // 해당 키가 맵에 있는지 체크하고 true or false 반환.
+// delete(키) // 해당 키가 있는 프로퍼티 삭제.
+// clear() // 맵의 모든 요소 삭제.
+// keys() // 각 요소의 키를 모아서 반환.
+// values() // 각 요소의 값을 모아서 반환.
+// entries() // [키, 값] 형태로 모든 요소를 반환.
+undefined
+// size 프로퍼티
+bag
+Map(3) {'color' => 'red', 'type' => 'mini', 'purpose' => 'daily'}
+bag.size
+3
+// get() 메서드
+bag.get("color")
+'red'
+bag.get("name")
+undefined
+// has()메서드
+bag.has("name")
+false
+bag.has("type")
+true
+// delete(), clear() 메서드
+bag.delete("type")
+true
+bag.delete("name")
+false
+bag
+Map(2) {'color' => 'red', 'purpose' => 'daily'}
+bag.clear()
+undefined
+bag
+Map(0) {size: 0}
+// key(), values(), entries() 메서드
+myCup
+Map(4) {'color' => 'white', 'haveHandle' => true, 'material' => 'ceramic', 'capacity' => '300ml'}
+myCup.keys()
+MapIterator {'color', 'haveHandle', 'material', 'capacity'}
+for(let key of myCup.keys()) {
+    console.log(key)
+}
+VM6625:2 color
+VM6625:2 haveHandle
+VM6625:2 material
+VM6625:2 capacity
+undefined
+myCup.values()
+MapIterator {'white', true, 'ceramic', '300ml'}
+for(let value of myCup.values()){
+    console.log(value)
+}
+VM6960:2 white
+VM6960:2 true
+VM6960:2 ceramic
+VM6960:2 300ml
+undefined
+myCup.entries()
+MapIterator {'color' => 'white', 'haveHandle' => true, 'material' => 'ceramic', 'capacity' => '300ml'}[[Entries]]0: {"color" => "white"}1: {"haveHandle" => true}2: {"material" => "ceramic"}3: {"capacity" => "300ml"}constructor: ƒ Iterator()[[Prototype]]: Map Iterator[[IteratorHasMore]]: true[[IteratorIndex]]: 0[[IteratorKind]]: "entries"
+for(let entry of myCup.entries()){
+    console.log(entry)
+}
+VM7152:2 (2) ['color', 'white']0: "color"1: "white"length: 2[[Prototype]]: Array(0)
+VM7152:2 (2) ['haveHandle', true]0: "haveHandle"1: truelength: 2[[Prototype]]: Array(0)
+VM7152:2 (2) ['material', 'ceramic']
+VM7152:2 (2) ['capacity', '300ml']
+undefined
+// entries() 메서드 사용하지않고 키와 값 가져올때
+for(let entry of myCup){
+    console.log(entry)
+}
+VM7400:3 (2) ['color', 'white']0: "color"1: "white"length: 2[[Prototype]]: Array(0)
+VM7400:3 (2) ['haveHandle', true]
+VM7400:3 (2) ['material', 'ceramic']
+VM7400:3 (2) ['capacity', '300ml']
+undefined
