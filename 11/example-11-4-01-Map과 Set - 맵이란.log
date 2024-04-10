@@ -1,0 +1,41 @@
+// 11-4 Map과 Set
+// 맵
+// new Map() // Map 객체를 만듦.
+// set(키, 값) // Map 객체에 프로퍼티를 추가.
+let bag = new Map() // Map 객체의 인스턴스 bag을 만듦.
+bag.set("color", "red")
+Map(1) {'color' => 'red'}[[Entries]]0: {"color" => "red"}size: 1[[Prototype]]: Map
+// new Map([
+//     [키1, 값1],
+//     [키2, 값2],
+//     ...
+// ]);
+let myCup = new Map([
+    ["color", "white"],
+    ["haveHandle", true],
+    ["material", "ceramic"],
+    ["capacity", "300ml"]
+])
+undefined
+myCup
+Map(4) {'color' => 'white', 'haveHandle' => true, 'material' => 'ceramic', 'capacity' => '300ml'}[[Entries]]0: {"color" => "white"}key: "color"value: "white"1: {"haveHandle" => true}2: {"material" => "ceramic"}3: {"capacity" => "300ml"}key: "capacity"value: "300ml"size: 4[[Prototype]]: Mapclear: ƒ clear()constructor: ƒ Map()delete: ƒ delete()entries: ƒ entries()forEach: ƒ forEach()get: ƒ ()has: ƒ has()keys: ƒ keys()set: ƒ ()size: (...)values: ƒ values()Symbol(Symbol.iterator): ƒ entries()Symbol(Symbol.toStringTag): "Map"get size: ƒ size()[[Prototype]]: Object
+// 맵에서의 체이닝
+bag.set("type", "mini")
+bag.set("purpose", "daily")
+Map(3) {'color' => 'red', 'type' => 'mini', 'purpose' => 'daily'}[[Entries]]0: {"color" => "red"}1: {"type" => "mini"}2: {"purpose" => "daily"}size: 3[[Prototype]]: Map
+// 체이닝 사용
+bag.set("type", "mini").set("purpose", "daily")
+Map(3) {'color' => 'red', 'type' => 'mini', 'purpose' => 'daily'}[[Entries]]0: {"color" => "red"}1: {"type" => "mini"}2: {"purpose" => "daily"}key: "purpose"value: "daily"size: 3[[Prototype]]: Map
+let myPone = new Map([
+    ["brand", "apple"],
+    ["color", "silver"],
+    ["openType", "face id"]
+])
+undefined
+myPone
+Map(3) {'brand' => 'apple', 'color' => 'silver', 'openType' => 'face id'}[[Entries]]0: {"brand" => "apple"}1: {"color" => "silver"}2: {"openType" => "face id"}size: 3[[Prototype]]: Map
+// 체이닝 사용
+let myPhone = new Map()
+undefined
+myPhone.set("brand", "apple").set("color", "silver").set("openType", "face id")
+Map(3) {'brand' => 'apple', 'color' => 'silver', 'openType' => 'face id'}[[Entries]]0: {"brand" => "apple"}1: {"color" => "silver"}2: {"openType" => "face id"}size: 3[[Prototype]]: Map
