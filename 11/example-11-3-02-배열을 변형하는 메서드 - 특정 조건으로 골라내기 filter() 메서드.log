@@ -1,0 +1,16 @@
+// 특정 조건으로 골라내기 - filter() 메서드
+// filter(함수(값, 인덱스, 배열))
+let scores = [90, 35, 64, 88, 45, 92]
+highScores = scores.filter(score => score >= 85)
+(3) [90, 88, 92]0: 901: 882: 92length: 3[[Prototype]]: Array(0)
+let scores = [90, 87, 35, 64, 45, 93]
+let highScores2 = scores.filter((score, index) => {
+    if (score >= 85) {
+        console.log(`index : ${index}, score : ${score}`);
+        return score;
+    }
+});
+VM991:4 index : 0, score : 90
+VM991:4 index : 1, score : 87
+VM991:4 index : 5, score : 93
+undefined
