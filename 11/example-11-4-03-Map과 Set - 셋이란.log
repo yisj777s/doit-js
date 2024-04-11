@@ -1,0 +1,26 @@
+// 11-4 Map과 Set
+// 11-4-3.셋이란
+// new Set()
+// new Set(배열)
+// add(값)
+undefined
+let numSet1 = new Set()
+undefined
+numSet1.add("one")
+Set(1) {'one'}[[Entries]]0: "one"size: 1[[Prototype]]: Set
+numSet1.add("two")
+Set(2) {'one', 'two'}[[Entries]]0: "one"1: "two"size: 2[[Prototype]]: Set
+// 체이닝
+let numSet1 = new Set().add("one").add("two")
+undefined
+numSet1
+Set(2) {'one', 'two'}[[Entries]]0: "one"1: "two"size: 2[[Prototype]]: Set
+// 배열을 인수로 받아 Set
+let numSet2 = new Set([1, 2, 3])
+undefined
+numSet2
+Set(3) {1, 2, 3}[[Entries]]0: 11: 22: 3size: 3[[Prototype]]: Set
+let numSet3 = new Set([1, 2, 1, 3, 1, 5])
+undefined
+numSet3
+Set(4) {1, 2, 3, 5}[[Entries]]0: 11: 22: 33: 5size: 4[[Prototype]]: Set
