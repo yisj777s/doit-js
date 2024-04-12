@@ -1,0 +1,54 @@
+// 11-4 Map과 Set
+// 11-4-4.셋의 프로퍼티와 메서드
+undefined
+// size // 셋 요소의 개수를 반환.
+// add(값) // 셋에 값을 추가.
+// has(값) // 셋에 해당 값이 있는지 체크.
+// delete(값) // 셋에서 해당 값 삭제.
+// clear() // 셋을 비움.
+undefined
+let students = new Set();
+undefined
+students.add("도레미")
+students.add("백두산")
+students.add("도레미")
+Set(2) {'도레미', '백두산'}[[Entries]]0: "도레미"1: "백두산"size: 2[[Prototype]]: Setadd: ƒ add()clear: ƒ clear()constructor: ƒ Set()delete: ƒ delete()difference: ƒ difference()entries: ƒ entries()forEach: ƒ forEach()has: ƒ has()length: 1name: "has"arguments: (...)caller: (...)[[Prototype]]: ƒ ()[[Scopes]]: Scopes[0]intersection: ƒ intersection()isDisjointFrom: ƒ isDisjointFrom()isSubsetOf: ƒ isSubsetOf()isSupersetOf: ƒ isSupersetOf()keys: ƒ values()size: (...)symmetricDifference: ƒ symmetricDifference()union: ƒ union()values: ƒ values()Symbol(Symbol.iterator): ƒ values()Symbol(Symbol.toStringTag): "Set"get size: ƒ size()[[Prototype]]: Object
+students
+Set(2) {'도레미', '백두산'}[[Entries]]0: "도레미"1: "백두산"size: 2[[Prototype]]: Set
+students.has("백두산")
+true
+students.has("한라산")
+false
+students.delete("도레미")
+true
+students
+Set(1) {'백두산'}
+students.clear()
+undefined
+students
+Set(0) {size: 0}[[Entries]]속성 없음size: 0[[Prototype]]: Set
+// keys(), values(), entries() 메서드
+// keys() // 셋에 있는 모든 값을 반환
+// values() // 셋에 있는 모든 값을 반환
+// entries() // [값, 값] 형식으로 모든 값 반환
+undefined
+let students = new Set(["도레미", "백두산"]);
+undefined
+students.keys()
+SetIterator {'도레미', '백두산'}
+students.values()
+SetIterator {'도레미', '백두산'}
+students.entries()
+SetIterator {'도레미' => '도레미', '백두산' => '백두산'}
+// for...of 문 사용
+undefined
+let languages = new Set(["js", "c", "python", "c", "js"])
+for(let language of languages.values()) {
+    console.log(language)
+}
+VM1749:3 js
+VM1749:3 c
+VM1749:3 python
+undefined
+languages
+Set(3) {'js', 'c', 'python'}[[Entries]]0: "js"1: "c"2: "python"size: 3[[Prototype]]: Set
