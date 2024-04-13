@@ -1,0 +1,56 @@
+//11-5.이터레이터와 제너레이터
+//11-5-01.이터러블 객체란
+undefined
+//이터러블 객체의 특징
+let hi = "hello"
+undefined
+// for...of문으로 반복.
+for(let ch of hi){
+    console.log(ch)
+}
+VM329:3 h
+VM329:3 e
+VM329:3 l
+VM329:3 l
+VM329:3 o
+undefined
+// 전개 연산자 사용
+let chArray = [...hi]
+undefined
+chArray
+(5) ['h', 'e', 'l', 'l', 'o']0: "h"1: "e"2: "l"3: "l"4: "o"length: 5[[Prototype]]: Array(0)
+// 구조 분해 할당 사용.
+let [ch1, ch2] = hi
+undefined
+ch1
+'h'
+ch2
+'e'
+// Symbol.iterator
+let arr = [1, 2, 3, 4, 5]
+undefined
+arr
+(5) [1, 2, 3, 4, 5]0: 11: 22: 33: 44: 5length: 5[[Prototype]]: Array(0)at: ƒ at()concat: ƒ concat()constructor: ƒ Array()copyWithin: ƒ copyWithin()entries: ƒ entries()every: ƒ every()fill: ƒ fill()filter: ƒ filter()length: 1name: "filter"arguments: (...)caller: (...)[[Prototype]]: ƒ ()[[Scopes]]: Scopes[0]find: ƒ find()findIndex: ƒ findIndex()findLast: ƒ findLast()findLastIndex: ƒ findLastIndex()flat: ƒ flat()flatMap: ƒ flatMap()forEach: ƒ forEach()includes: ƒ includes()indexOf: ƒ indexOf()join: ƒ join()length: 1name: "join"arguments: (...)caller: (...)[[Prototype]]: ƒ ()[[Scopes]]: Scopes[0]keys: ƒ keys()lastIndexOf: ƒ lastIndexOf()length: 0map: ƒ map()pop: ƒ pop()push: ƒ push()reduce: ƒ reduce()reduceRight: ƒ reduceRight()reverse: ƒ reverse()shift: ƒ shift()slice: ƒ slice()some: ƒ some()sort: ƒ sort()splice: ƒ splice()toLocaleString: ƒ toLocaleString()length: 0name: "toLocaleString"arguments: (...)caller: (...)[[Prototype]]: ƒ ()[[Scopes]]: Scopes[0]toReversed: ƒ toReversed()toSorted: ƒ toSorted()toSpliced: ƒ toSpliced()toString: ƒ toString()unshift: ƒ unshift()values: ƒ values()length: 0name: "values"arguments: (...)caller: (...)[[Prototype]]: ƒ ()[[Scopes]]: Scopes[0]with: ƒ with()Symbol(Symbol.iterator): ƒ values()length: 0name: "values"arguments: [예외: TypeError: 'caller', 'callee', and 'arguments' properties may not be accessed on strict mode functions or the arguments objects for calls to them
+    at Function.invokeGetter (<anonymous>:3:28)]caller: [예외: TypeError: 'caller', 'callee', and 'arguments' properties may not be accessed on strict mode functions or the arguments objects for calls to them
+    at Function.invokeGetter (<anonymous>:3:28)][[Prototype]]: ƒ ()[[Scopes]]: Scopes[0]Symbol(Symbol.unscopables): {at: true, copyWithin: true, entries: true, fill: true, find: true, …}[[Prototype]]: Object
+let it = arr[Symbol.iterator]()
+undefined
+it
+Array Iterator {}constructor: ƒ Iterator()[[Prototype]]: Array Iteratornext: ƒ next()Symbol(Symbol.toStringTag): "Array Iterator"constructor: ƒ Iterator()[[Prototype]]: Object
+// 이터레이터 객체와 next() 메서드
+it.next()
+{value: 1, done: false}done: falsevalue: 1[[Prototype]]: Object
+it.next()
+{value: 2, done: false}done: falsevalue: 2[[Prototype]]: Object
+it.next()
+{value: 3, done: false}
+it.next()
+{value: 4, done: false}
+it.next()
+{value: 5, done: false}
+it.next()
+{value: undefined, done: true}
+it.next()
+{value: undefined, done: true}
+it
+Array Iterator {}constructor: ƒ Iterator()[[Prototype]]: Array Iterator
