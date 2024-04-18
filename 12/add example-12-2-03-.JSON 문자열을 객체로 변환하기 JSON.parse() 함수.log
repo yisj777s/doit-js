@@ -1,0 +1,22 @@
+//12.HTTP통신과 JSON
+//12-1.HTTP 통신
+//12-2.JSON
+//12-2-3.JSON 문자열을 객체로 변환하기 - JSON.parse() 함수
+undefined
+// JSON.parse(JSON 문자열)
+undefined
+let member = '{"name" : "백두산", "age" : 30, "hobby" : "swimming"}'
+undefined
+let member_obj = JSON.parse(member)
+undefined
+member_obj
+{name: '백두산', age: 30, hobby: 'swimming'}age: 30hobby: "swimming"name: "백두산"[[Prototype]]: Object
+member
+'{"name" : "백두산", "age" : 30, "hobby" : "swimming"}'
+// review
+let member1 = {name: "도레미", age: 25};
+undefined
+let member2 = JSON.parse(JSON.stringify(member1));
+undefined
+member2
+{name: '도레미', age: 25}
