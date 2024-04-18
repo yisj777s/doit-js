@@ -1,0 +1,15 @@
+//12.HTTP통신과 JSON
+//12-1.HTTP 통신
+//12-2.JSON
+//12-2-2.객체를 JSON 자료로 변환하기 - JSON.stringify()함수 
+undefined
+// JSON.stringify(객체)
+undefined
+let student = {name: "도레미", major: "컴퓨터 공학", grade: 2}
+undefined
+let json = JSON.stringify(student)
+undefined
+json
+'{"name":"도레미","major":"컴퓨터 공학","grade":2}'
+student === json //student = 객체, json = 문자열
+false
