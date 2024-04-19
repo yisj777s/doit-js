@@ -1,0 +1,13 @@
+//12.HTTP통신과 JSON
+//12-1.HTTP 통신
+//12-2.JSON
+//12-3.서버에서 자료 가져오기
+//12-3-1.AJAX
+//12-3-2.XMLHttpRequest 객체 만들기
+undefined
+//기본형: new XMLHttpRequest()
+undefined
+let xhr = new XMLHttpRequest()
+undefined
+xhr
+XMLHttpRequest {onreadystatechange: null, readyState: 0, timeout: 0, withCredentials: false, upload: XMLHttpRequestUpload, …}onabort: nullonerror: nullonload: nullonloadend: nullonloadstart: nullonprogress: nullonreadystatechange: nullontimeout: nullreadyState: 0response: ""responseText: ""responseType: ""responseURL: ""responseXML: nullstatus: 0statusText: ""timeout: 0upload: XMLHttpRequestUpload {onloadstart: null, onprogress: null, onabort: null, onerror: null, onload: null, …}withCredentials: false[[Prototype]]: XMLHttpRequest
