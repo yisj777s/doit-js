@@ -1,0 +1,28 @@
+//12.HTTP통신과 JSON
+//12-1.HTTP 통신
+//12-2.JSON
+//12-3.서버에서 자료 가져오기
+//12-3-3.서버로 자료 요청하기
+undefined
+// open() 메서드
+// 요청 초기화 - 기본형: open(방식, 자료위치, 비동기 여부)
+// 방식: GET, POST, PUT...
+undefined
+// 자료위치: 요청할 서버의 URL
+// 비동기 여부: 기본값 true, 동기 처리 = false 입력.
+undefined
+// send() 메서드
+// 기본형: send(내용)
+undefined
+let xhr = new XMLHttpRequest()
+undefined
+xhr.open("GET", "test.txt", true);
+xhr.send()
+VM1393:1 Uncaught DOMException: Failed to execute 'open' on 'XMLHttpRequest': Invalid URL
+    at <anonymous>:1:5
+(익명) @ VM1393:1
+// HTTP 헤더와 관련된 다양한 메서드들
+// setRequestHeader(header, value)
+// getResponseHeader()
+// getAllResponseHeaders()
+undefined
