@@ -1,0 +1,57 @@
+    student.html:41 Live reload enabled.
+    :5500/favicon.ico:1 
+            
+            
+        Failed to load resource: the server responded with a status of 404 (Not Found)
+    //12.HTTP통신과 JSON
+    //12-1.HTTP 통신
+    //12-2.JSON
+    //12-3.서버에서 자료 가져오기
+    //12-3-4.JSON 파일 요청하기
+    undefined
+    let xhr = new XMLHttpRequest();
+    undefined
+    xhr.open("GET", "student-example.json");
+    undefined
+    xhr.send();
+    undefined
+    xhr
+    XMLHttpRequest {onreadystatechange: null, readyState: 4, timeout: 0, withCredentials: false, upload: XMLHttpRequestUpload, …}onabort: nullonerror: nullonload: nullonloadend: nullonloadstart: nullonprogress: nullonreadystatechange: nullontimeout: nullreadyState: 4response: "{\r\n  \"name\" : \"도레미\",\r\n  \"major\" : \"컴퓨터 공학\",\r\n  \"grade\" : 2\r\n}"responseText: "{\r\n  \"name\" : \"도레미\",\r\n  \"major\" : \"컴퓨터 공학\",\r\n  \"grade\" : 2\r\n}"responseType: ""responseURL: "http://127.0.0.1:5500/12/student-example.json"responseXML: nullstatus: 200statusText: "OK"timeout: 0upload: XMLHttpRequestUpload {onloadstart: null, onprogress: null, onabort: null, onerror: null, onload: null, …}withCredentials: false[[Prototype]]: XMLHttpRequest
+    //readyState프로퍼티
+    //status, statusText 프로퍼티
+    //readystatechange 이벤트
+    undefined
+    xhr.onreadystatechange = function () {
+        if(xhr.readyState == 4) {
+    }
+    VM647:3 Uncaught SyntaxError: Unexpected end of input
+    xhr.onreadystatechange = function () {
+        if(xhr.readyState == 4) { // 요청이 성공했다면
+            // 필요 명령
+        }
+    }
+    ƒ () {
+        if(xhr.readyState == 4) { // 요청이 성공했다면
+            // 필요 명령
+        }
+    }
+    xhr.onreadystatechange = function () {
+        if(xhr.readyState == 4 && xhr.status == 200) { // 자료가 있고 가져오는 데  성공했다면
+            // 필요 명령
+        }
+    }
+    ƒ () {
+        if(xhr.readyState == 4 && xhr.status == 200) { // 자료가 있고 가져오는 데  성공했다면
+            // 필요 명령
+        }
+    }
+// responseText 프로퍼티
+undefined
+xhr.response
+'{\r\n  "name" : "도레미",\r\n  "major" : "컴퓨터 공학",\r\n  "grade" : 2\r\n}'
+xhr.responseText
+'{\r\n  "name" : "도레미",\r\n  "major" : "컴퓨터 공학",\r\n  "grade" : 2\r\n}'
+let students = JSON.parse(xhr.responseText)
+undefined
+document.getElementById("result").innerHTML = `${students.name} 학생은 ${students.grade}학년입니다.`
+'도레미 학생은 2학년입니다.'
