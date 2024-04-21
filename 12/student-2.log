@@ -1,0 +1,11 @@
+student-2.js:8 Uncaught ReferenceError: renderHTML is not defined
+    at xhr.onreadystatechange (student-2.js:8:5)
+xhr.onreadystatechange @ student-2.js:8
+XMLHttpRequest.send(비동기)
+(익명) @ student-2.js:3
+students
+VM254:1 Uncaught ReferenceError: students is not defined
+    at <anonymous>:1:1
+(익명) @ VM254:1
+JSON.parse(xhr.responseText)
+(3) [{…}, {…}, {…}]0: {name: '도레미', major: '컴퓨터 공학', grade: 2}1: {name: '백두산', major: '철학과', grade: 1}2: {name: '홍길동', major: '국문학과', grade: 3}length: 3[[Prototype]]: Array(0)
