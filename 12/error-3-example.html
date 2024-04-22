@@ -12,13 +12,11 @@
   <script>
     try {
       console.log("시작");
-      add;
+      add();
       console.log("실행 중..."); 
-    } catch(err) {
-      console.error(`오류 발생 : ${err}`);
-      console.error(`오류 발생 : ${err.name}`);
-      console.error(`오류 발생 : ${err.message}`);
-    } finally {        
+    } catch(e) {
+      console.error(`오류 발생 : ${e}`);
+    } finally {
       console.log("끝");
     }
   </script>
