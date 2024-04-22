@@ -1,0 +1,3 @@
+error-2-example.html:14 시작
+error-2-example.html:18 오류 발생 : ReferenceError: add is not defined
+error-2-example.html:21 끝

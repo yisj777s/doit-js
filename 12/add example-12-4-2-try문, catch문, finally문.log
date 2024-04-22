@@ -1,0 +1,16 @@
+//12.HTTP통신과 JSON
+//12-1.HTTP 통신
+//12-2.JSON
+//12-3.서버에서 자료 가져오기
+//12-4.예외 처리하기
+//12-4-2.try문, catch문, finally 문
+undefined
+// 기본형
+// try {
+//     // 실행할 코드
+// } catch (error) {
+//     // try 블록에서 예외가 발생했을 때 실행할 코드
+// } finally {
+//     // try 블록 이후에 실행할 코드. 예외와 상관없이 실행
+// }
+undefined
