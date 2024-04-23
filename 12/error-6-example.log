@@ -1,0 +1,3 @@
+error-6-example.html:21 Error: 사용자 이름이 없습니다.
+    at error-6-example.html:18:15
+(익명) @ error-6-example.html:21

@@ -17,10 +17,9 @@
       if (!user.name) {
         throw new Error("사용자 이름이 없습니다.");
       }
-    } catch (err) {
-      // console.error(err);
-      console.error(`error name : ${err.name}`);
-      console.error(`error message : ${err.message}`);
+    } catch (e) {
+      console.error(`오류 이름: ${e.name}`);
+      console.error(`오류 메세지: ${e.message}`);
     }
   </script>
 </body>
