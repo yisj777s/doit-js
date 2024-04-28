@@ -1,0 +1,10 @@
+pizza-2.js:8 피자를 주문합니다.
+pizza()
+Promise {<fulfilled>: '피자를 주문합니다.'}[[Prototype]]: Promisecatch: ƒ catch()constructor: ƒ Promise()finally: ƒ finally()then: ƒ then()Symbol(Symbol.toStringTag): "Promise"[[Prototype]]: Object[[PromiseState]]: "fulfilled"[[PromiseResult]]: "피자를 주문합니다."
+pizza().then()
+Promise {<fulfilled>: '피자를 주문합니다.'}[[Prototype]]: Promise[[PromiseState]]: "fulfilled"[[PromiseResult]]: "피자를 주문합니다."
+pizza().then(result => step1(result))
+pizza-2.js:8 피자를 주문합니다.
+Promise {<fulfilled>: undefined}[[Prototype]]: Promise[[PromiseState]]: "fulfilled"[[PromiseResult]]: undefined
+pizza().then()
+Promise {<fulfilled>: '피자를 주문합니다.'}[[Prototype]]: Promise[[PromiseState]]: "fulfilled"[[PromiseResult]]: "피자를 주문합니다."
