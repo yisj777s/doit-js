@@ -1,0 +1,7 @@
+fetch('student-2.json')
+Promise {<pending>}
+fetch('student-2.json').then()
+Promise {<pending>}
+fetch('student-2.json').then(console.log)
+Promise {<pending>}
+Response {type: 'basic', url: 'http://127.0.0.1:5500/13/student-2.json', redirected: false, status: 200, ok: true, …}body: (...)bodyUsed: falseheaders: Headers {}ok: trueredirected: falsestatus: 200statusText: "OK"type: "basic"url: "http://127.0.0.1:5500/13/student-2.json"[[Prototype]]: Response

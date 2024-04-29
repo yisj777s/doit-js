@@ -1,0 +1,2 @@
+fetch('student-2.json')
+Promise {<pending>}[[Prototype]]: Promise[[PromiseState]]: "fulfilled"[[PromiseResult]]: Response
