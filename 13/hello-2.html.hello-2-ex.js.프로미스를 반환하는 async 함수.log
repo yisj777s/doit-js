@@ -1,0 +1,4 @@
+hello-2-ex.js:5 Hello
+displayHello()
+hello-2-ex.js:5 Hello
+Promise {<fulfilled>: undefined}[[Prototype]]: Promise[[PromiseState]]: "fulfilled"[[PromiseResult]]: undefined
