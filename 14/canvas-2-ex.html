@@ -6,14 +6,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>캔버스 만들기</title>
   <style>
+    body {
+      margin: 0; /*여백(margin)의 기본값 삭제.*/
+      overflow: hidden; /*스크롤 막대 삭제.*/
+    }
     canvas {
-      border:1px solid #222;
+      background-color: #ccc;
     }
   </style>
 </head>
 <body>
-  <canvas width="400" height="300"></canvas>
+  <canvas></canvas>
 
-  <script src="js/canvas-3.js"></script>
+  <script src="js/canvas-2-ex.js"></script>
 </body>
 </html>
