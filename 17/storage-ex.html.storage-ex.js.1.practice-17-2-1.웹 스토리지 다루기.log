@@ -1,0 +1,3 @@
+storage-ex.js:5 현재 students : Kim,Yi,Park
+storage-ex.js:22 추가 후 students : Kim,Yi,Park,Choi
+storage-ex.js:29 삭제 후 students : Yi,Park,Choi
