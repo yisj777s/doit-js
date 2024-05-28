@@ -40,7 +40,40 @@
     //17.웹 API 활용하기
     //17-3.지오로케이션 API
     //17-3-2.geolocation 객체
-    //17-3-2-2.지정한 시간이 지나면 위치 추적 멈추기
+    //17-3-2-3.지정한 시간마다 위치 확인하기 - watchPosition() 메서드
+    //17-3-2-3-1.지정한 시간이 지나면 위치 추적 멈추기
+    const getLocation = document.getElementById("getLocation");
+    getLocation.addEventListener("click", (e) => {
+      e.preventDefault();
+      if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition, errorPosition);
+
+        const options = {
+          enableHighAccuracy: true,
+          timeout: 5000,
+          maximumAge: 0
+        };
+
+        let watchId = navigator.geolocation.watchPosition(showPosition, errorPosition, options);
+
+        setTimeout(() => {
+          navigator.geolocation.clearWatch(watchID);
+        }, 300000);
+
+      } else {
+        alert("지오로케이션을 지원하지 않습니다.");
+      }
+    });
+
+    function showPosition(position) {
+      document.querySelector("#result").innerHTML = `
+      <b>위도:</b> ${position.coords.latitude}, <b>경도:</b> ${position.coords.longitude}
+      `;
+    };
+
+    function errorPosition(err) {
+      alert(err.message);
+    };
   </script>
 </body>
 </html>
